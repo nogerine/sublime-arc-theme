@@ -1,0 +1,14 @@
+{
+	"Arc Dark": {
+		"Preferences": {
+			"theme": "Arc Dark.sublime-theme",
+			"color_scheme": "Packages/Theme - Arc/Arc Dark.tmTheme"
+		}
+	},
+	"Arc Darker": {
+		"Preferences": {
+			"theme": "Arc Dark.sublime-theme",
+			"color_scheme": "Packages/Theme - Arc/Arc Darker.tmTheme"
+		}
+	}
+}

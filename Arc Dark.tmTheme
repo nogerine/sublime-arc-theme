@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist
+PUBLIC '-//Apple//DTD PLIST 1.0//EN'
+'http://www.apple.com/DTDs/PropertyList-1.0.dtd'>
+<plist version="1.0">
+	<dict>
+		<key>name</key>
+		<string>Arc Dark</string>
+		<key>author</key>
+		<string>aIRisius</string>
+		<key>semanticClass</key>
+		<string>theme.dark.arc</string>
+		<key>uuid</key>
+		<string>68E31A6C-A5F7-4D2E-987F-0F062699B255</string>
+		<key>colorSpaceName</key>
+		<string>sRGB</string>
+		<!--
+		Colors:
+			White (background): #f5f6f7
+			Arc: #2f343f
+			Aqua: #5294E2
+			Medium Dark Grey: #222222
+			Green: #229955
+			Red: #B33A2E
+			Blue: #5294E2
+			Yellow: #CCA60C
+			Orange-Red: #CC701E
+			Periwinkle: #5B5FA6
+		-->
+		<key>settings</key>
+		<array>
+			<dict>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#2f343f</string>
+					<key>background</key>
+					<string>#f5f6f7</string>
+					<key>caret</key>
+					<string>#2f343f</string>
+					<key>selection</key>
+					<string>#5294E2</string>
+					<key>selectionForeground</key>
+					<string>#f5f6f7</string>
+					<key>lineHighlight</key>
+					<string>#5294E2</string>
+					<key>findHighlight</key>
+					<string>#5294E2</string>
+					<key>inactiveSelection</key>
+					<string>#5294E2</string>
+					<key>gutter</key>
+					<string>#252a35</string>
+					<key>gutterForeground</key>
+					<string>#f5f6f7</string>
+					<key>guide</key>
+					<string>#2F343F</string>
+					<key>activeGuide</key>
+					<string>#2F343F</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Comments</string>
+				<key>scope</key>
+				<string>comment</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
+					<key>foreground</key>
+					<string>#4C4C4C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Inserted</string>
+				<key>scope</key>
+				<string>markup.inserted</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#229955</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Deleted</string>
+				<key>scope</key>
+				<string>markup.deleted</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B33A2E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Changed</string>
+				<key>scope</key>
+				<string>markup.changed</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#5B5FA6</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ignored</string>
+				<key>scope</key>
+				<string>markup.ignored</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#222222</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Constant</string>
+				<key>scope</key>
+				<string>constant, support.constant</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#5B5FA6</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Entities</string>
+				<key>scope</key>
+				<string>entity</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#229955</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS Pseudo Selectors</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.pseudo-element</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CCA60C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS Tag names</string>
+				<key>scope</key>
+				<string>entity.name.tag</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B33A2E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Invalid</string>
+				<key>scope</key>
+				<string>invalid</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#000000</string>
+					<key>background</key>
+					<string>#B33A2E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Keywords</string>
+				<key>scope</key>
+				<string>keyword</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B33A2E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Storage</string>
+				<key>scope</key>
+				<string>storage</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#5294E2</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>String</string>
+				<key>scope</key>
+				<string>string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CCA60C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>String.regexp</string>
+				<key>scope</key>
+				<string>string.regexp</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#5294E2</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Support</string>
+				<key>scope</key>
+				<string>support</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#5294E2</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Variables</string>
+				<key>scope</key>
+				<string>variable</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CC701E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Markdown Quotes</string>
+				<key>scope</key>
+				<string>markup.quote.markdown</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CCA60C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Markdown Headings</string>
+				<key>scope</key>
+				<string>markup.heading</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#5294E2</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Markdown Italics</string>
+				<key>scope</key>
+				<string>markup.italic</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#229955</string>
+					<key>fontStyle</key>
+					<string>italic</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Markdown Bold</string>
+				<key>scope</key>
+				<string>markup.bold</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#229955</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Markdown Raw</string>
+				<key>scope</key>
+				<string>markup.raw</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B33A2E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Markdown Lists</string>
+				<key>scope</key>
+				<string>markup.list</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CCA60C</string>
+				</dict>
+			</dict>
+
+			<!-- GitGutter -->
+			<dict>
+			  <key>name</key>
+			  <string>GitGutter deleted</string>
+			  <key>scope</key>
+			  <string>markup.deleted.git_gutter</string>
+			  <key>settings</key>
+			  <dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>GitGutter inserted</string>
+		  <key>scope</key>
+		  <string>markup.inserted.git_gutter</string>
+		  <key>settings</key>
+		  <dict>
+			<key>foreground</key>
+			<string>#A6E22E</string>
+		</dict>
+	</dict>
+	<dict>
+	  <key>name</key>
+	  <string>GitGutter changed</string>
+	  <key>scope</key>
+	  <string>markup.changed.git_gutter</string>
+	  <key>settings</key>
+	  <dict>
+		<key>foreground</key>
+		<string>#967EFB</string>
+	</dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>GitGutter ignored</string>
+  <key>scope</key>
+  <string>markup.ignored.git_gutter</string>
+  <key>settings</key>
+  <dict>
+	<key>foreground</key>
+	<string>#565656</string>
+</dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>GitGutter untracked</string>
+  <key>scope</key>
+  <string>markup.untracked.git_gutter</string>
+  <key>settings</key>
+  <dict>
+	<key>foreground</key>
+	<string>#565656</string>
+</dict>
+</dict>
+</array>
+</dict>
+</plist>
